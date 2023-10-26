@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="main.css">
+
+    <!-- FONTS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Bootstrap CSS v5.2.1 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+
+    <title>Instagram</title>
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-sm navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand" href="#"><i class="fab fa-instagram"></i> Instagram</a>
+      
+
+            <div class="justify-content-end">
+
+                <div class="navbar-nav">
+                    <div class="navbar-nav align-items-center">
+                        <button type="button" class="btn btn-success" data-bs-toggle="modal"
+                            data-bs-target="#createNewPost">
+                            Create a new post
+                        </button>
+                    </div>
+                    <ul class="navbar-nav me-auto mt-2 mt-lg-0">
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-bs-toggle="dropdown"
+                                aria-haspopup="true" aria-expanded="false"><i class="fas fa-gear"></i>
+                            </a>
+                            <div class="dropdown-menu dropdown-menu-end mt-2" aria-labelledby="dropdownId">
+                                <a class="dropdown-item" href="#">Profile</a>
+                                <a class="dropdown-item" href="#">Accesibility</a>
+                                <a class="dropdown-item" href="#">Privacy and data</a>
+                                <hr>
+                                <a class="dropdown-item text-danger" href="#">Log out</a>
+
+                            </div>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+    </nav>
+
+    <!-- NAV TAB - VIEW GRID -->
+    <div class="nav">
+        <div class="col-12 d-flex justify-content-center pt-2 pb-1">
+           
+                <ul class="nav nav-tabs border-0">
+                    <li class="nav-item">
+                        <a class="nav-link fs-5 border-0" data-bs-toggle="tab" data-bs-target="#threeCol" href="#"><i class="fas fa-table-cells"></i></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active fs-5 border-0" data-bs-toggle="tab" data-bs-target="#oneCol" href="#"><i class="fas fa-square"></i></a>
+                    </li>
+                </ul>
+           
+        </div>
+    </div>
+    
+    
+    <!-- TAB PANES -->
+    <!-- 1 GRID - CARD CONTAINER -->
+    <div class="tab-content">
+
+        <div class="tab-pane active container" id="oneCol">
+            <div class="row">
+                <!-- CARD -->
+                <div class="col-12 d-flex justify-content-center">
+                    <div class="card p-0 mt-2 rounded-0" style="width: 29rem;">
+                        <div class="d-flex justify-content-between m-2">
+                            <p class="card-text fs-4">My Crazy dog Spark!</p>
+                            <p class="card-text">28/9</p>
+                        </div>
+                        <img class="card-img-top rounded-0" src="https://picsum.photos/318/250" alt="Card image cap">
+                        <div class="card-body">
+                            <p class="card-text fa-regular fa-heart"><strong> 204 Likes</strong></p>
+                            <p class="card-text">This is an example of a very good photo that you can post on Instagram.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 d-flex justify-content-center">
+                    <div class="card p-0 mt-4 rounded-0" style="width: 29rem;">
+                        <div class="d-flex justify-content-between m-2">
+                            <p class="card-text fs-4">My Crazy dog Spark!</p>
+                            <p class="card-text">28/9</p>
+                        </div>
+                        <img class="card-img-top rounded-0" src="https://picsum.photos/318/250" alt="Card image cap">
+                        <div class="card-body">
+                            <p class="card-text fa-regular fa-heart"><strong> 204 Likes</strong></p>
+                            <p class="card-text">This is an example of a very good photo that you can post on Instagram.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 d-flex justify-content-center">
+                    <div class="card p-0 mt-4 rounded-0" style="width: 29rem;">
+                        <div class="d-flex justify-content-between m-2">
+                            <p class="card-text fs-4">My Crazy dog Spark!</p>
+                            <p class="card-text">28/9</p>
+                        </div>
+                        <img class="card-img-top rounded-0" src="https://picsum.photos/318/250" alt="Card image cap">
+                        <div class="card-body">
+                            <p class="card-text fa-regular fa-heart"><strong> 204 Likes</strong></p>
+                            <p class="card-text">This is an example of a very good photo that you can post on Instagram.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 d-flex justify-content-center">
+                    <div class="card p-0 mt-4 rounded-0" style="width: 29rem;">
+                        <div class="d-flex justify-content-between m-2">
+                            <p class="card-text fs-4">My Crazy dog Spark!</p>
+                            <p class="card-text">28/9</p>
+                        </div>
+                        <img class="card-img-top rounded-0" src="https://picsum.photos/318/250" alt="Card image cap">
+                        <div class="card-body">
+                            <p class="card-text fa-regular fa-heart"><strong> 204 Likes</strong></p>
+                            <p class="card-text">This is an example of a very good photo that you can post on Instagram.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="tab-pane container-fluid" id="threeCol" style="max-width: 1000px;">
+            <div class="row d-flex justify-content-center align-items-center g-2">
+                <div class="col-lg-4 col-sm-12 d-flex justify-content-center"><img src="https://picsum.photos/320/320" alt=""></div>
+                <div class="col-lg-4 col-sm-12 d-flex justify-content-center"><img src="https://picsum.photos/320/320" alt=""></div>
+                <div class="col-lg-4 col-sm-12 d-flex justify-content-center"><img src="https://picsum.photos/320/320" alt=""></div>
+                <div class="col-lg-4 col-sm-12 d-flex justify-content-center"><img src="https://picsum.photos/320/320" alt=""></div>
+                <div class="col-lg-4 col-sm-12 d-flex justify-content-center"><img src="https://picsum.photos/320/320" alt=""></div>
+                <div class="col-lg-4 col-sm-12 d-flex justify-content-center"><img src="https://picsum.photos/320/320" alt=""></div>
+                <div class="col-lg-4 col-sm-12 d-flex justify-content-center"><img src="https://picsum.photos/320/320" alt=""></div>
+                <div class="col-lg-4 col-sm-12 d-flex justify-content-center"><img src="https://picsum.photos/320/320" alt=""></div>
+                <div class="col-lg-4 col-sm-12 d-flex justify-content-center"><img src="https://picsum.photos/320/320" alt=""></div>
+            </div>
+        </div>
+
+    </div>
+
+
+    <!-- MODAL -->
+    <div class="modal fade" tabindex="-1" role="dialog" id="createNewPost">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Create a new post</h5>
+                    <button type="button" class="close border-0 bg-body" data-bs-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true" class="fs-4">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p>Caption:</p>
+                    <textarea class="form-control" rows="2" placeholder="Add the caption of your post here"></textarea>
+                    <button class="btn btn-light mt-2 border-4"><i class="fas fa-camera"></i></button>
+                    <button class="btn btn-light mt-2"><i class="fas fa-location-dot"></i></button>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary">Close</button>
+                    <button type="button" class="btn btn-success" data-dismiss="modal">Publish</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <!-- Bootstrap JavaScript Libraries -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
+        </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+        integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
+        </script>
+
+</body>
+
+</html>
+
+
+<!-- BORDES BOTONES CAMARA Y LOCATION > POPUP -->
